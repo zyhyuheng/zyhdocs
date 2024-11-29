@@ -24,7 +24,7 @@ export default defineConfig({
             'link',
             {
                 rel: 'shortcut icon',
-                href: '/zyhLogo.ico'
+                href: '/favicon.ico'
             }
         ]
     ],

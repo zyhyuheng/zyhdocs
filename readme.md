@@ -114,7 +114,11 @@ zyhdoc
 
 ## 部署到 GitHub Pages
 如果要将文档部署到 GitHub Pages，可以参考以下步骤：
+
 1.创建一个新的 GitHub 仓库。
+
 2.在存储库设置中的“Pages”菜单项下，选择“Build and deployment > Source > GitHub Actions”
+
 3.修改配置文件中base: '/仓库名/'
+
 4.首次提交可能不会触发部署，可以在做一次提交
