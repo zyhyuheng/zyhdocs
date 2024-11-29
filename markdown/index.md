@@ -7,9 +7,9 @@ hero:
     tagline: 何以解忧，唯有代码，不忘初心，方得始终。
     actions:
         - theme: brand
-          text: 微信：chensuiyime
+          text: 微信：
         - theme: brand
-          text: 扣扣：24323626
+          text: QQ：
 
 features:
     - icon: 🍓
