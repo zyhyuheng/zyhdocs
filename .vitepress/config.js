@@ -4,7 +4,7 @@ import { docsAuto } from '@yicode/yidocs-auto';
 const { sideBar, navBar } = docsAuto();
 
 export default defineConfig({
-    base: '/',
+    base: '/zyhdoc/',
     title: '忄宇亘',
     description: '我的文档',
     lastUpdated: true,
