@@ -5,7 +5,7 @@ const { sideBar, navBar } = docsAuto();
 
 export default defineConfig({
     lang: 'zh-CN',
-    base: '/zyhdoc/',
+    base: '/zyhdocs/',
     title: '忄宇亘',
     description: '我的文档',
     lastUpdated: true,
@@ -24,7 +24,7 @@ export default defineConfig({
             'link',
             {
                 rel: 'shortcut icon',
-                href: '/favicon.ico'
+                href: '/zyhdocs/favicon.ico'
             }
         ]
     ],

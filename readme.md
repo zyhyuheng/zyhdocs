@@ -1,8 +1,13 @@
 # zyhdocs
 
 基础基于 `vitepress` 深度定制的文档项目模板。
+
 本项目基于[yidocs](https://github.com/chenbimo/yicode/tree/master/packages/yidocs)修改而来。
+
 本项目支持GitHub Pages部署。
+
+其他配置请参考[vitepress官方文档](https://vitepress.dev/zh/)
+
 ## 为什么使用 `yidocs`？
 
 `yidocs` 开箱即用，并且无需手动配置 `侧边栏` 和 `导航栏`。
