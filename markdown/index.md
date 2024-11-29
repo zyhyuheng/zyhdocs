@@ -7,27 +7,29 @@ hero:
     tagline: 何以解忧，唯有代码，不忘初心，方得始终。
     actions:
         - theme: brand
-          text: 微信：
-        - theme: brand
-          text: QQ：
+          text: 开始使用
+          link: /1-参考文档/1-JAVA/1-java8 Stream中方法示例
+        - theme: alt
+          text: 在GitHub上查看
+          link: https://github.com/zyhyuheng/zyhdoc
 
 features:
     - icon: 🍓
-      title: 随易周刊
-      details: 平均每周一期的随易观世界
-      link: /5-随易周刊/1-随易周刊/1-第0001期
+      title: Stream中方法示例
+      details: java8 Stream中方法示例参考
+      link: /1-参考文档/1-JAVA/1-java8 Stream中方法示例
     - icon: 🍄
-      title: 自律记录
-      details: 陈随易的2024年自律记录
-      link: /9-关于我们/2-自律记录/1-2024年/1-年度计划
+      title: springboot中cucumber使用mock
+      details: 记录springboot中cucumber使用mock
+      link: /1-参考文档/1-JAVA/2-记录springboot中cucumber使用mock
     - icon: 🍒
-      title: 关于我
-      details: 一个在折腾之路上狂奔的疯子
-      link: /9-关于我们/1-关于我们/1-个人介绍
+      title: java流式查询模式
+      details: 流式查询模式是一种优化查询的方法，可以在查询大量数据时降低内存占用，提高查询速度
+      link: /1-参考文档/1-JAVA/3-java流式查询模式
     - icon: 🚀
-      title: 开源项目
-      details: 自2019年持续维护、更新、完善至今
-      link: https://github.com/chenbimo/yicode
+      title: springboot中使用工厂模式
+      details: 记录springboot中使用工厂模式
+      link: /1-参考文档/1-JAVA/4-springboot中使用工厂模式
 ---
 
 <!-- <homeMore></homeMore> -->

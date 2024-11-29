@@ -1,33 +1,8 @@
-# yidocs (易文档)
+# zyhdocs
 
-基于 `vitepress` 深度定制的文档项目模板。
-
-## 开源仓库
-
-[gitee 仓库](https://gitee.com/yicode-team/yicode)
-
-[github 仓库](https://github.com/chenbimo/yicode)
-
-笔者自 `2019` 年开源至今，坚持不懈，默默耕耘。
-
-如果笔者的开源项目能够给你带来帮助和便利，可以给笔者的仓库点个 `star`。
-
-如果您希望赞赏笔者，给笔者喝杯咖啡，可以访问以下地址进行适当支持。
-
-[👍 请作者喝杯咖啡](https://yicode.tech/4-关于/1-站长信息/1-关于站长.html)
-
-## 效果
-
-请直接访问 [`https://yicode.tech`](https://yicode.tech) 查看效果。
-
-![picture 1](https://static.yicode.tech/images/202306/20230605224024.png)
-
-## 下载
-
-下载 `yidocs` 的教程，请访问以下链接：
-
-[yidocs 下载方法](https://yicode.tech/4-关于/2-问题帮助/1-如何下载模板.html)
-
+基础基于 `vitepress` 深度定制的文档项目模板。
+本项目基于[yidocs](https://github.com/chenbimo/yicode/tree/master/packages/yidocs)修改而来。
+本项目支持GitHub Pages部署。
 ## 为什么使用 `yidocs`？
 
 `yidocs` 开箱即用，并且无需手动配置 `侧边栏` 和 `导航栏`。
@@ -77,10 +52,6 @@ export default {
 };
 ```
 
-最苦、最累、最麻烦的问题，交给笔者。
-
-最好、最强、最方便的功能，留给你们。
-
 ## 要求和理念
 
 当然，要想如此方便地使用 `yidocs`，一些必要的约定还是要遵守的。
@@ -120,6 +91,11 @@ export default {
 以下为没有 `项目` 的文件组织结构 `分类-目录-文件` 示例：
 
 ```bash
+zyhdoc
+├───📁 .github/
+|   ├───📁 workflows/
+|   │   └───📄 deploy.yml
+├───📁 .vitepress/
 ├───📁 markdown/
 │   ├───📁 1-关于/
 │   │   ├───📁 1-站长信息/
@@ -136,6 +112,9 @@ export default {
 
 不满足此规则的文件，在编译的控制台将会进行提示，且对应文件将不会在文档中显示。
 
-## 反馈
-
-有任何使用问题，请访问 [✋ 给作者反馈](https://yicode.tech/4-关于/1-站长信息/1-关于站长.html)联系笔者。
+## 部署到 GitHub Pages
+如果要将文档部署到 GitHub Pages，可以参考以下步骤：
+1.创建一个新的 GitHub 仓库。
+2.在存储库设置中的“Pages”菜单项下，选择“Build and deployment > Source > GitHub Actions”
+3.修改配置文件中base: '/仓库名/'
+4.首次提交可能不会触发部署，可以在做一次提交
