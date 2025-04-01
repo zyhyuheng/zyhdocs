@@ -3,8 +3,8 @@ layout: home
 
 hero:
     name: 忄宇亘
-    text: 生命不息，折腾不止。
-    tagline: 何以解忧，唯有代码，不忘初心，方得始终。
+    text: 生命不息，志在千里。
+    tagline: 指尖飞舞，键盘敲击，思维激荡，创新不断。
     actions:
         - theme: brand
           text: 开始使用

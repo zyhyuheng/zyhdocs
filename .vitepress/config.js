@@ -41,7 +41,7 @@ export default defineConfig({
             { icon: 'github', link: 'https://github.com/zyhyuheng' }
         ],
         footer: {
-            message: '何以解忧，唯有代码。不忘初心，方得始终。',
+            message: '指尖飞舞，键盘敲击，思维激荡，创新不断。',
             copyright: 'Copyright © 2019-present 忄宇亘'
         },
         docFooter: {

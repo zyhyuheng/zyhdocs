@@ -14,7 +14,7 @@
         "build": "vitepress build"
     },
     "keywords": [],
-    "author": "陈随易 <bimostyle@qq.com>",
+    "author": "忄宇亘 <zyh@qq.com>",
     "license": "ISC",
     "dependencies": {
         "@yicode/yidocs-auto": "^1.6.3"
